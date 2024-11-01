@@ -5,6 +5,5 @@
 }
 
 html {
-    background: linear-gradient(var(--dark), var(--grey), var(--red));
-    
+    background-image: radial-gradient(circle, var(--dark), var(--grey), Var(--red));
 }
