@@ -1,0 +1,10 @@
+:root {
+    --grey: #B3B6B7;
+    --red: #6F1A07;
+    --dark: #00120B;
+}
+
+html {
+    background: linear-gradient(var(--dark), var(--grey), var(--red));
+    
+}
