@@ -4,19 +4,27 @@
     --dark: #00120B;
 }
 
-html {
+body {
     background-image: linear-gradient( to bottom right, var(--dark), Var(--red));
     background-repeat: no-repeat;
-    height: 100vh;
 }
 
 h1 {
-    color: aliceblue;
     text-align: center;
 }
 
 .yes {
     display: flex;
     justify-content: center;
+    text-align: center;
     flex-direction: column;
+    color: aliceblue;
+}
+
+img {
+    transform: scale(0.5);
+}
+
+ul {
+    list-style-type: none;
 }
